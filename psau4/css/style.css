@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Rubik+Scribble&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+.logo {
+    /* Use flexbox to center the logo */
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    margin-bottom: 20px;
+    
+}
+
+.logo img {
+    /* Set the maximum width and height for the logo */
+    max-width: 90px; /* Adjust as needed */
+    max-height: 90px; /* Adjust as needed */
+    margin-top: 10px;
+}
+
+
+h1{
+    text-align: center;
+    margin: 50px;
+    font-family: "Dancing Script", cursive;
+    text-shadow: 6px 5px 7px black;
+    font-size: 2.5em;
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+    font-family: "EB Garamond", serif;
+    text-shadow: 6px 3px 6px black;
+}
+
+.form-container {
+    /* Position the form container */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 8px #000;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+}
+
+.first-form, .second-form, .third-form {
+    width: 500px;
+    height: 450px;
+    background-color: #056700;
+    border-radius: 8px;
+    color: #FBB610;
+    width: 400px; /* Set the width of the form */
+    padding: 20px; /* Add padding for better spacing */
+    text-align: center; /* Align the content to the center */
+}
+
+
+.first-form hr {
+    /* Adjust the height and width of the horizontal rule */
+    height: 4px;
+    width: 365px; /* Adjust as needed */
+    margin: 20px auto; /* Center the horizontal rule */
+    background-color: #FBB610; /* Change the color of the horizontal rule to blue */
+    border: none; /* Remove the default border */
+}
+
+input {
+    width: 310px; 
+    margin-bottom: 10px; 
+    padding: 7px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #FBB610;
+    background-color: #056700;
+    font-weight: bold;
+    color: #000;
+    margin: 7px;
+}
+
+input::placeholder {
+    color: #2e2d2d; /* Change the placeholder text color to gray */
+}
+
+select, button{
+    width: 161px; 
+    margin-bottom: 10px; 
+    margin-top: 5px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    color: #FBB610;
+    background-color: #056700;
+    border: 1px solid #FBB610;
+    border-radius: 10px;
+}
+
+select{
+    padding: 7px;
+}
+
+button{
+    padding: 8px;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+button:active{
+    transform: scale(0.9);
+}
